@@ -13,19 +13,15 @@ public class SoundManager : MonoBehaviour
         if (horizontalCheck > 0.5f)
         {
             driftSound.SetActive(true);
-            Debug.Log("Play");
         }
         
         if (horizontalCheck < -0.5f)
         {
             driftSound.SetActive(true);
-            Debug.Log("Play");
         }
         if (horizontalCheck < 0.5f && horizontalCheck > -0.5f)
         {
             driftSound.SetActive(false);
-            //driftSound.Stop();
-            Debug.Log("Stop");
         }
     }
 }

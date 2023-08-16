@@ -26,7 +26,6 @@ public class CarController : MonoBehaviour
     {
         variableJoystick = GameManager.Instance.GetVariableJoystick();
     }
-    // Update is called once per frame
     private void Update()
     {
         if(inputManager != null)
